@@ -8,7 +8,7 @@ const AboutMe = () => {
     <>
       <NavBar />
       <div className="container-about">
-        <h1 className="title">
+        <h1 className="title-about">
           Felipe Rosa – Software Developer & Product Manager
         </h1>
 
@@ -17,7 +17,7 @@ const AboutMe = () => {
             <h2 className="section-title">
               About Me
             </h2>
-            <p className="text">
+            <p className="text-about">
               With over a decade of experience, I am a passionate "Software Developer" and "Product Manager" skilled in transforming
               business challenges into tech solutions. My expertise spans across "full-stack development", "cloud services", and "AI integration",
               helping businesses streamline their processes through modern technologies.
