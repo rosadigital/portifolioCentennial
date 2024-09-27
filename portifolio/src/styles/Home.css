@@ -1,0 +1,108 @@
+.container {
+  flex-grow: 1;
+  padding-top: 6rem;
+}
+
+.grid-container {
+  min-height: 80vh;
+}
+
+.headline {
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.headline-md {
+  font-size: 3.5rem;
+}
+
+.subheadline {
+  color: #bbb;
+  font-size: 1.2rem;
+}
+
+.subheadline-md {
+  font-size: 1.5rem;
+}
+
+.button-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.learn-more-button {
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  background-color: #646cff;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: #535bf2;
+}
+
+.explore-projects-button {
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  border-color: #646cff;
+  color: #646cff;
+  transition: all 0.3s ease;
+}
+
+.explore-projects-button:hover {
+  background-color: #646cff;
+  color: #fff;
+}
+
+.profile-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 1%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-box {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e1e 0%, #333 100%);
+  color: #ddd;
+}
+
+.welcome-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.welcome-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.welcome-text-md {
+  font-size: 1.2rem;
+}
+
+.mission-title {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.mission-statement {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.mission-statement-md {
+  font-size: 1.5rem;
+}
