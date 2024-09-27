@@ -1,69 +1,68 @@
 .container-services {
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title-services {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.subtitle-services {
+  margin-bottom: 4rem;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.grid-container-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  align-items: stretch;
+}
+
+.service-card-services {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 3rem);
+  max-width: calc(33% - 3rem);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .service-card-services {
+    flex: 1 1 calc(50% - 3rem);
+    max-width: calc(50% - 3rem);
   }
-  
-  .title-services {
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .service-card-services {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
-  
-  .subtitle-services {
-    margin-bottom: 4rem;
-    color: #fff;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4rem;
-    align-items: stretch;
-  }
-  
-  .service-card {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33% - 3rem);
-    max-width: calc(33% - 3rem);
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  @media (max-width: 960px) {
-    .service-card {
-      flex: 1 1 calc(50% - 3rem);
-      max-width: calc(50% - 3rem);
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .service-card {
-      flex: 1 1 100%;
-      max-width: 100%;
-    }
-  }
-  
-  .service-title {
-    font-weight: bold;
-    color: #646cff;
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-  }
-  
-  .service-description {
-    line-height: 1.8;
-    color: #555;
-    font-size: 0.95rem;
-    min-height: 100px;
-  }
-  
+}
+
+.service-title-services {
+  font-weight: bold;
+  color: #646cff;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.service-description-services {
+  line-height: 1.8;
+  color: #555;
+  font-size: 0.95rem;
+  min-height: 100px;
+}

@@ -1,78 +1,74 @@
-.projects-container {
-    padding-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.projects-container-projects {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-title-projects {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.project-card-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+@media (min-width: 768px) {
+  .project-card-projects.row {
+    flex-direction: row;
   }
 
-  .projects-title {
-    margin-bottom: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px;
+  .project-card-projects.row-reverse {
+    flex-direction: row-reverse;
   }
-  
-  .project-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 4rem;
-    margin-right: 75px;
-    margin-left: 75px;
+}
 
-  }
-  
-  @media (min-width: 768px) {
-    .project-card.row {
-      flex-direction: row;
-    }
-    
-    .project-card.row-reverse {
-      flex-direction: row-reverse;
-    }
-  }
-  
-  .project-image-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .project-image {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  
-  .project-details {
-    flex: 1;
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-    border: 2px solid #646cff;
+.project-image-container-projects {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
 
-  }
-  
-  .project-details:hover {
-    background-color: #e9ecef;
-  }
-  
-  .project-title {
-    margin-bottom: 1rem;
-    color: #343a40;
-  }
-  
-  .project-description {
-    margin-bottom: 1rem;
-    color: #495057;
-  }
-  
-  .project-role,
-  .project-outcome {
-    margin-bottom: 0.5rem;
-    color: #6c757d;
-  }
-  
+.project-image-projects {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-details-projects {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #646cff;
+}
+
+.project-details-projects:hover {
+  background-color: #e9ecef;
+}
+
+.project-title-projects {
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.project-description-projects {
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+.project-role-projects,
+.project-outcome-projects {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}

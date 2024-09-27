@@ -45,25 +45,25 @@ const projects = [
 const ProjectCard = ({ project, index }) => {
   const directionClass = index % 2 === 0 ? 'row' : 'row-reverse';
   return (
-    <div className={`project-card ${directionClass}`}>
-      <div className="project-image-container">
+    <div className={`project-card-projects ${directionClass}`}>
+      <div className="project-image-container-projects">
         <img
           src={project.image}
           alt={project.alt}
-          className="project-image"
+          className="project-image-projects"
         />
       </div>
-      <div className="project-details">
-        <h3 className="project-title">
+      <div className="project-details-projects">
+        <h3 className="project-title-projects">
           {project.title}
         </h3>
-        <p className="project-description">
+        <p className="project-description-projects">
           {project.description}
         </p>
-        <p className="project-role">
+        <p className="project-role-projects">
           <strong>Role:</strong> {project.role}
         </p>
-        <p className="project-outcome">
+        <p className="project-outcome-projects">
           <strong>Outcome:</strong> {project.outcome}
         </p>
       </div>
@@ -75,8 +75,8 @@ const Projects = () => {
   return (
     <>
       <NavBar />
-      <div className="projects-container">
-        <h2 className="projects-title">
+      <div className="projects-container-projects">
+        <h2 className="projects-title-projects">
           Featured Projects
         </h2>
         {projects.map((project, index) => (

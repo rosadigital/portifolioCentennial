@@ -40,13 +40,13 @@ const Services = () => {
         <p className="subtitle-services">
           I offer a diverse range of services designed to help businesses leverage cutting-edge technologies for digital transformation, automation, and AI integration.
         </p>
-        <div className="grid-container">
+        <div className="grid-container-services">
           {services.map((service, index) => (
-            <div className="service-card" key={index}>
-              <h3 className="service-title">
+            <div className="service-card-services" key={index}>
+              <h3 className="service-title-services">
                 {service.title}
               </h3>
-              <p className="service-description">
+              <p className="service-description-services">
                 {service.description}
               </p>
             </div>
