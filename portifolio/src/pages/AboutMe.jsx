@@ -23,11 +23,13 @@ const AboutMe = () => {
               helping businesses streamline their processes through modern technologies.
             </p>
             <a 
-              href="/resume.pdf"
+              href="../assets/FelipeRosaDeveloperAI2024.docx"
               className="button"
+              download
             >
               Download My Full Resume
             </a>
+
           </div>
 
           <div className="grid-item">
