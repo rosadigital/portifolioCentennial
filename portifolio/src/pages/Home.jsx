@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import { Container, Grid, Typography, Button, Box } from '@mui/material';
 import profilePhoto from '../assets/img_profileHOme.jpg';
 import '../styles/Home.css';
 
@@ -8,91 +7,57 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      
-      <Container className="container">
-        <Grid container spacing={6} alignItems="center" className="grid-container">
-          
-          <Grid item xs={12} md={6}>
-            <Box>
-              <Typography 
-                variant="h3" 
-                gutterBottom 
-                className={`headline ${window.innerWidth >= 960 ? 'headline-md' : ''}`}
-              >
-                Hi, I’m Felipe Rosa – Software Developer
-              </Typography>
-              <Typography 
-                variant="h5" 
-                gutterBottom 
-                className={`subheadline ${window.innerWidth >= 960 ? 'subheadline-md' : ''}`}
-              >
-                Building innovative software solutions and delivering results through modern technologies.
-              </Typography>
-              <Box className="button-container">
-                <Button 
-                  variant="contained" 
-                  color="primary" 
-                  href="/about" 
-                  className="learn-more-button"
-                >
-                  Learn More About Me
-                </Button>
-                <Button 
-                  variant="outlined" 
-                  color="primary" 
-                  href="/projects"
-                  className="explore-projects-button"
-                >
-                  Explore My Projects
-                </Button>
-              </Box>
-            </Box>
-          </Grid>
 
-          <Grid item xs={12} md={6}>
-            <Box className="profile-photo-container">
-              <img 
-                src={profilePhoto} 
-                alt="Felipe Rosa" 
+      <div className="container-home">
+        <div className="grid-container">
+          <div className="grid-item">
+            <div>
+              <h1 className="headline">
+                Hi, I’m Felipe Rosa – Software Developer
+              </h1>
+              <h2 className="subheadline">
+                Building innovative software solutions and delivering results through modern technologies.
+              </h2>
+              <div className="button-container">
+                <a href="/about" className="learn-more-button">
+                  Learn More About Me
+                </a>
+                <a href="/projects" className="explore-projects-button">
+                  Explore My Projects
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid-item">
+            <div className="profile-photo-container">
+              <img
+                src={profilePhoto}
+                alt="Felipe Rosa"
                 className="profile-photo"
               />
-            </Box>
-          </Grid>
-        </Grid>
-      </Container>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <Box className="welcome-box">
-        <Typography 
-          variant="h4" 
-          gutterBottom 
-          className="welcome-title"
-        >
+      <div className="welcome-box">
+        <h2 className="welcome-title">
           Welcome to My Portfolio
-        </Typography>
-        <Typography 
-          variant="body1" 
-          paragraph 
-          className={`welcome-text ${window.innerWidth >= 960 ? 'welcome-text-md' : ''}`}
-        >
-          I specialize in backend development, cloud services, and AI-powered applications. 
-          Whether you're here to explore my projects or looking to collaborate, I’m excited to connect with you. 
+        </h2>
+        <p className="welcome-text">
+          I specialize in backend development, cloud services, and AI-powered applications.
+          Whether you're here to explore my projects or looking to collaborate, I’m excited to connect with you.
           Discover more about my journey, skills, and the services I offer through the links above.
-        </Typography>
+        </p>
 
-        <Typography 
-          variant="h5" 
-          gutterBottom 
-          className="mission-title"
-        >
+        <h3 className="mission-title">
           My Mission
-        </Typography>
-        <Typography 
-          variant="h6" 
-          className={`mission-statement ${window.innerWidth >= 960 ? 'mission-statement-md' : ''}`}
-        >
+        </h3>
+        <p className="mission-statement">
           Create software that empowers businesses and enhances user experiences through robust and scalable solutions.
-        </Typography>
-      </Box>
+        </p>
+      </div>
     </>
   );
 };
