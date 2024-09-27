@@ -33,26 +33,20 @@ const Services = () => {
   return (
     <>
       <NavBar />
-      <div className="container-services">
-        <h2 className="title-services">
-          My Core Services
-        </h2>
+      <section className="container-services">
+        <h2 className="title-services">My Core Services</h2>
         <p className="subtitle-services">
-          I offer a diverse range of services designed to help businesses leverage cutting-edge technologies for digital transformation, automation, and AI integration.
+          I offer services to help businesses leverage cutting-edge technologies for digital transformation.
         </p>
         <div className="grid-container-services">
           {services.map((service, index) => (
             <div className="service-card-services" key={index}>
-              <h3 className="service-title-services">
-                {service.title}
-              </h3>
-              <p className="service-description-services">
-                {service.description}
-              </p>
+              <h3 className="service-title-services">{service.title}</h3>
+              <p className="service-description-services">{service.description}</p>
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 };

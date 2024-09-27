@@ -1,4 +1,3 @@
-// Projects.jsx
 import React from 'react';
 import NavBar from '../components/NavBar';
 import img_MCSTools from '../assets/img_MCSTools.png';
@@ -47,25 +46,13 @@ const ProjectCard = ({ project, index }) => {
   return (
     <div className={`project-card-projects ${directionClass}`}>
       <div className="project-image-container-projects">
-        <img
-          src={project.image}
-          alt={project.alt}
-          className="project-image-projects"
-        />
+        <img src={project.image} alt={project.alt} className="project-image-projects" />
       </div>
       <div className="project-details-projects">
-        <h3 className="project-title-projects">
-          {project.title}
-        </h3>
-        <p className="project-description-projects">
-          {project.description}
-        </p>
-        <p className="project-role-projects">
-          <strong>Role:</strong> {project.role}
-        </p>
-        <p className="project-outcome-projects">
-          <strong>Outcome:</strong> {project.outcome}
-        </p>
+        <h3 className="project-title-projects">{project.title}</h3>
+        <p className="project-description-projects">{project.description}</p>
+        <p className="project-role-projects"><strong>Role:</strong> {project.role}</p>
+        <p className="project-outcome-projects"><strong>Outcome:</strong> {project.outcome}</p>
       </div>
     </div>
   );
@@ -75,14 +62,12 @@ const Projects = () => {
   return (
     <>
       <NavBar />
-      <div className="projects-container-projects">
-        <h2 className="projects-title-projects">
-          Featured Projects
-        </h2>
+      <section className="projects-container-projects">
+        <h2 className="projects-title-projects">Featured Projects</h2>
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} index={index} />
         ))}
-      </div>
+      </section>
     </>
   );
 };

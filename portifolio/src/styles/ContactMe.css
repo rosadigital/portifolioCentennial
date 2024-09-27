@@ -15,7 +15,7 @@
 
 .subtitle-contactme {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   color: #fff;
 }
 
@@ -52,7 +52,6 @@
   box-sizing: border-box;
 }
 
-/* Placeholder styling */
 .form-field-contactme::placeholder {
   color: #fff;
   opacity: 1;
