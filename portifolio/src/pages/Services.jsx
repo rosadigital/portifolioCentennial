@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 import '../styles/Services.css';
 
 const services = [
@@ -47,6 +48,8 @@ const Services = () => {
           ))}
         </div>
       </section>
+      <Footer /> 
+
     </>
   );
 };

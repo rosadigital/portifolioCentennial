@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 import profilePhoto from '../assets/img_profileHome.jpg';
 import '../styles/Home.css';
 
@@ -44,6 +45,9 @@ const Home = () => {
           Create software that empowers businesses and enhances user experiences through robust and scalable solutions.
         </p>
       </section>
+
+      <Footer /> 
+
     </>
   );
 };

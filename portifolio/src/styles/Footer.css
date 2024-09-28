@@ -1,0 +1,24 @@
+.footer {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #646cff;
+  width: auto;
+  min-height: 1.5rem;
+
+}
+
+.footerbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+
+  .footerbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}

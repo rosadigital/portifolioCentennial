@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 import profilePhoto from '../assets/img_profileAbout.jpg';
 import '../styles/AboutMe.css';
 
@@ -43,6 +44,9 @@ const AboutMe = () => {
         <p className="text-about">- Led the development of "Nossa Intranet", optimizing project and financial management.</p>
         <p className="text-about">- Spearheaded the creation of "Nosso Tools", the first SaaS product for tax automation.</p>
       </section>
+
+      <Footer /> 
+
     </>
   );
 };
