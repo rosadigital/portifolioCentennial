@@ -37,6 +37,7 @@
   max-width: calc(33% - 3rem);
   box-sizing: border-box;
   text-align: center;
+  border: 2px solid #646cff;
 }
 
 @media (max-width: 960px) {

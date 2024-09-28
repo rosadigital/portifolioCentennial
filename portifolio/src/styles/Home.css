@@ -68,7 +68,8 @@
 }
 
 .learn-more-button-home:hover {
-  background-color: #535bf2;
+  background-color: #fff;
+  color: #646cff;
 }
 
 .explore-projects-button-home {
@@ -91,6 +92,7 @@
   max-width: 350px;
   border-radius: 1%;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid #646cff;
 }
 
 .welcome-box-home {

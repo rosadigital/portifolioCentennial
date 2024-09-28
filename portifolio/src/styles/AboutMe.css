@@ -55,8 +55,10 @@
   transition: background-color 0.3s ease;
 }
 
+
 .button-about:hover {
-  background-color: #535bf2;
+  background-color: #fff;
+  color: #646cff;
 }
 
 .image-container-about {
@@ -69,6 +71,7 @@
   max-width: 300px;
   border-radius: 1%;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #646cff;
 }
 
 .achievements-box-about {
