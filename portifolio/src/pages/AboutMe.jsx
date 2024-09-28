@@ -17,7 +17,12 @@ const AboutMe = () => {
                 With over a decade of experience, I am a passionate "Software Developer" and "Product Manager" skilled in transforming
                 business challenges into tech solutions. My expertise spans across "full-stack development", "cloud services", and "AI integration".
               </p>
-              <a href="../assets/FelipeRosaDeveloperAI2024.docx" className="button-about" download>
+              <a
+                href="src/assets/FelipeRosaDeveloperAI2024.pdf"
+                className="button-about"
+                target="_blank"
+                download="FelipeRosaDeveloperAI2024.pdf" 
+              >
                 Download My Full Resume
               </a>
             </header>
