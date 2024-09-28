@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import profilePhoto from '../assets/img_profileAbout.jpg';
 import '../styles/AboutMe.css';
 
@@ -9,7 +10,9 @@ const AboutMe = () => {
     <>
       <NavBar />
       <section className="container-about">
-        <h1 className="title-about">Felipe Rosa – Software Developer & Product Manager</h1>
+      <Header 
+          title="Felipe Rosa – Software Developer & Product Manager" 
+        />
         <div className="grid-container-about">
           <div className="grid-item-about">
             <header className="header-about">

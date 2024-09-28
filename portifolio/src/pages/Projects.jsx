@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import img_MCSTools from '../assets/img_MCSTools.png';
 import img_intranet from '../assets/img_intranet.png';
 import img_nossoTools from '../assets/img_nossoTools.png';
@@ -63,8 +64,8 @@ const Projects = () => {
   return (
     <>
       <NavBar />
+      <Header title='Featured Projects'/>
       <section className="projects-container-projects">
-        <h2 className="projects-title-projects">Featured Projects</h2>
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} index={index} />
         ))}

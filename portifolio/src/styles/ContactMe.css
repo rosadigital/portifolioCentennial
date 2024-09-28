@@ -1,6 +1,6 @@
 .container-contactme {
   flex-grow: 1;
-  padding-top: 4rem;
+  padding-top: 1rem;
   margin-left: 10rem;
   margin-right: 6rem;
 }
@@ -24,6 +24,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  align-items: center;
 }
 
 .grid-item-contactme {

@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import profilePhoto from '../assets/img_profileHome.jpg';
 import '../styles/Home.css';
 
@@ -8,19 +9,18 @@ const Home = () => {
   return (
     <>
       <NavBar />
+      <Header title={''} subtitle={''}/>
       <section className="container-home">
         <div className="grid-container-home">
           <div className="grid-item-home">
-            <header className="header-home">
-              <h1 className="headline-home">Hi, I’m Felipe Rosa Software Developer</h1>
-              <h2 className="subheadline-home">
-                Building innovative software solutions and delivering results through modern technologies.
-              </h2>
+          <Header
+            title={<h1>Hi, I’m Felipe Rosa<br />Software Developer & Product Manager</h1>}
+            subtitle={<h2>Building innovative software solutions and delivering results through modern technologies.</h2>}
+            />
               <div className="button-container-home">
                 <a href="/about" className="learn-more-button-home">Learn More About Me</a>
                 <a href="/projects" className="explore-projects-button-home">Explore My Projects</a>
               </div>
-            </header>
           </div>
 
           <div className="grid-item-home">

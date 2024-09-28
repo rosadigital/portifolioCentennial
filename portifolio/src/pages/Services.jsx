@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import '../styles/Services.css';
 
 const services = [
@@ -13,15 +14,15 @@ const services = [
     description: "Creating high-quality mobile applications with responsive design, ensuring cross-platform compatibility and seamless user experience."
   },
   { 
-    title: "Backend Development (Django, Flask, Node.js)",
-    description: "Expertise in building and maintaining robust REST APIs, managing database interactions, and developing scalable microservices architectures."
+    title: "Backend Development",
+    description: "Using Django, Flask, Node.js, expertise in building and maintaining robust REST APIs, managing database interactions, and developing scalable microservices architectures."
   },
   { 
     title: "Cloud Solutions (AWS, Azure)", 
     description: "Proficient in cloud infrastructure services, including AWS Lambda, API Gateway, Compute, S3, and DynamoDB for cost-effective and scalable cloud-based solutions."
   },
   { 
-    title: "AI & Machine Learning Integration", 
+    title: "AI & Machine Learning", 
     description: "Implementing AI and machine learning solutions, fine-tuning models for data analytics, document querying, and predictive analytics using tools like BERT, LLaMA, and Langchain."
   },
   { 
@@ -34,11 +35,8 @@ const Services = () => {
   return (
     <>
       <NavBar />
+      <Header title={'My Core Services'} subtitle={'I offer services to help businesses leverage cutting-edge technologies for digital transformation.'}/>
       <section className="container-services">
-        <h2 className="title-services">My Core Services</h2>
-        <p className="subtitle-services">
-          I offer services to help businesses leverage cutting-edge technologies for digital transformation.
-        </p>
         <div className="grid-container-services">
           {services.map((service, index) => (
             <div className="service-card-services" key={index}>

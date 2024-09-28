@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import '../styles/ContactMe.css';
 
 const Contact = () => {
@@ -33,11 +34,8 @@ const Contact = () => {
   return (
     <>
       <NavBar />
+      <Header title={'Let’s Get in Touch!'} subtitle={'I’m available for freelance work, collaboration, or just a chat about the latest in tech.'}/>
       <section className="container-contactme">
-        <h2 className="title-contactme">Let’s Get in Touch!</h2>
-        <p className="subtitle-contactme">
-          I’m available for freelance work, collaboration, or just a chat about the latest in tech.
-        </p>
         <div className="grid-container-contactme">
           <div className="grid-item-contactme">
             <form className="form-contactme" onSubmit={handleSubmit}>
