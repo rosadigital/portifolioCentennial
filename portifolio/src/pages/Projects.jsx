@@ -1,3 +1,9 @@
+/**
+ * File Name: Projects.jsx
+ * Student’s Name: Felipe Rosa
+ * Student ID: 301415379
+ * Date: September 28, 2024
+ */
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -64,7 +70,10 @@ const Projects = () => {
   return (
     <>
       <NavBar />
-      <Header title='Featured Projects'/>
+      <Header title="Featured Projects"
+              subtitle="Explore my key projects demonstrating leadership in software development, impactful results, and innovative solutions that drive business success."
+
+      />
       <section className="projects-container-projects">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} index={index} />

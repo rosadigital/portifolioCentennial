@@ -1,3 +1,9 @@
+/**
+ * File Name: ContactMe.jsx
+ * Student’s Name: Felipe Rosa
+ * Student ID: 301415379
+ * Date: September 28, 2024
+ */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';

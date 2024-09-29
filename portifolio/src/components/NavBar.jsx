@@ -1,3 +1,9 @@
+/**
+ * File Name: NavBar.jsx
+ * Student’s Name: Felipe Rosa
+ * Student ID: 301415379
+ * Date: September 28, 2024
+ */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';

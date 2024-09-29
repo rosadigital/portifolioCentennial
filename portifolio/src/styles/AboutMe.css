@@ -1,7 +1,12 @@
+/**
+ * File Name: AboutMe.css
+ * Student’s Name: Felipe Rosa
+ * Student ID: 301415379
+ * Date: September 28, 2024
+ */
 .container-about {
   padding-bottom: 6rem;
   padding-left: 6rem;
-
   margin: 0 auto;
   text-align: center;
 }
@@ -14,6 +19,7 @@
 }
 
 .grid-container-about {
+  padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;

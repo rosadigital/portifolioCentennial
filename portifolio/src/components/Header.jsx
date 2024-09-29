@@ -1,4 +1,9 @@
-// Header.jsx
+/**
+ * File Name: Header.jsx
+ * Student’s Name: Felipe Rosa
+ * Student ID: 301415379
+ * Date: September 28, 2024
+ */
 import React from 'react';
 import '../styles/Header.css';
 
