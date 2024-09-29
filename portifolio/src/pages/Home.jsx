@@ -5,6 +5,7 @@
  * Date: September 28, 2024
  */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -24,8 +25,8 @@ const Home = () => {
             subtitle={<h2>Building innovative software solutions and <br></br>delivering results through modern technologies.</h2>}
             />
               <div className="button-container-home">
-                <a href="/about" className="learn-more-button-home">Learn More About Me</a>
-                <a href="/projects" className="explore-projects-button-home">Explore My Projects</a>
+                <Link to="/about" className="learn-more-button-home">Learn More About Me</Link>
+                <Link to="/projects" className="explore-projects-button-home">Explore My Projects</Link>
               </div>
           </div>
 
